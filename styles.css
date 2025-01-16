@@ -1,1 +1,141 @@
 /* your code here */
+
+
+  
+        .product{
+			background-color:lightgreen;
+            display: flex;
+            justify-content: center;
+            padding: 140px;
+        }
+       
+		.product__photo{
+            border-radius: 10px;
+			
+            padding: 30px;
+		}
+		.photo-main{
+            background-color: greenyellow;
+           
+            border-radius: 10px;
+
+		}
+        .photo-main  img{
+           
+
+        }
+        .photo-container{
+            border-radius: 10px;
+            margin-left: -50px;
+            box-shadow: 3px 3px 6px gray; 
+            
+            
+        }
+		.controls{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding: 10px;
+
+           
+		}
+		.fa-share-alt{
+            padding: 10px;
+            color: white;
+		}
+		.fa-heart-o{
+            padding: 10px;
+            color: white;
+            margin-left: 325px;
+		}
+		.photo-album{
+            background-color: white;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+		}
+		.product__info{
+           
+            padding: 0px;
+            
+		}
+        .title{
+            
+        }
+		.title span{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: lighter;
+            color: lightgray;
+		}
+        .title h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+		.price{
+            color: red;
+
+		}
+		.variant h3{
+            font-family: 'Courier New', Courier, monospace;
+           font-weight: lighter;
+            color: lightgray;
+		}
+        .variant li{
+            border: none;
+            
+        }
+        .variant li:first-child{
+            border:1px solid lightgray;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: right;
+            margin-right: 25px;
+            
+        }
+        li{
+            margin: 3px;;
+            justify-content: space-around;
+            border: 1px solid lightgrey;
+            
+            border-radius: 5px;
+
+        }
+		.description h3{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: lighter;
+            color: lightgray;
+        }
+        .benifits{
+            
+            display: block;
+            list-style-type:disc ;
+           
+        }
+        .fullphoto{
+            display: flex;
+            background-color: white;
+            border-radius:10px ;
+        }
+        .rate{
+            font-size: 50px;
+            color: red;
+        }
+        .btn{
+            background-color: red;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            margin-left:20px;
+            margin-top: 5px;
+            font-weight: bold;
+            width: 150px;
+        }
+        .small{
+            width: 50px;
+            height: 50px;
+        }
+        .benifits li{
+            border: none;
+        }
